@@ -33,7 +33,7 @@ function onCardClick(event) {
         return;
     }
 
-    instance = basicLightbox.create(
+    instance = SimpleLightbox.create(
         `
         <img src="${event.target.dataset.source}">
         `,
